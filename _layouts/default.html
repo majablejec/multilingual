@@ -19,8 +19,9 @@
 		-->
 		
 		<!--- Changed loop from https://sylvain.durand.tf/making-jekyll-multilingual/ that works only partially -->
-		{% assign posts=site.posts | where:"date", page.date | sort: 'path' %}
+		<!--- Changed: posts -> site.posts; name -> date -->
 		<ul>
+		{% assign posts=site.posts | where:"date", page.date | sort: 'path' %}
 		{% for post in site.posts %}
 			<li class="lang">
 				<a href="{{ post.url }}" class="{{ post.lang }}">{{ post.lang }}</a>

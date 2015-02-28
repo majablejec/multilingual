@@ -18,7 +18,7 @@
 		</ul>
 		-->
 		
-		<!--- Chnged loop from https://sylvain.durand.tf/making-jekyll-multilingual/ that works only partially -->
+		<!--- Changed loop from https://sylvain.durand.tf/making-jekyll-multilingual/ that works only partially -->
 		{% assign posts=site.posts | where:"date", page.date | sort: 'path' %}
 		<ul>
 		{% for post in site.posts %}

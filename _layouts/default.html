@@ -19,7 +19,7 @@
 		-->
 		
 		<!--- Chnged loop from https://sylvain.durand.tf/making-jekyll-multilingual/ that works only partially -->
-		{% assign posts=site.posts | where:"name", page.name | sort: 'path' %}
+		{% assign posts=site.posts | where:"date", page.date | sort: 'path' %}
 		<ul>
 		{% for post in site.posts %}
 			<li class="lang">

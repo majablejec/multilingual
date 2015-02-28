@@ -1,16 +1,17 @@
 markdown: redcarpet
 baseurl: /multilingual
 exclude: ['README.md']
-	  
+
 defaults:
   -
     scope:
       path: _posts/en
     values:
-      lang: en
       layout: default
+      lang: en
   -
     scope:
       path: _posts/sl
     values:
+      layout: default
       lang: sl

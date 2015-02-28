@@ -1,7 +1,7 @@
 ---
-title: Druga vest.
+title: Druga vest
 meta: Povzetek za drugo vest.
-name: first-news
+name: second-post
 ---
 
-Druga vest govori o tem in tem.
+Druga vest govori o ...

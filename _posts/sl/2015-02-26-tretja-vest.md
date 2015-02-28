@@ -1,7 +1,7 @@
 ---
-title: Tretja vest POST.
+title: Tretja vest
 meta: Povzetek za tretjo vest.
-name: first-news
+name: third-post
 ---
 
-Tretja vest govori o tem in tem.
+Tretja vest govori o ...

@@ -29,6 +29,8 @@ title: Posts
 </ul>
 -->
 
+<!--- Changed loop from https://sylvain.durand.tf/making-jekyll-multilingual/ that works only partially -->
+
 {% assign posts=site.posts | where:"lang", page.lang %}
 <ul>
 {% for post in site.posts %}
@@ -38,3 +40,5 @@ title: Posts
     </li>
 {% endfor %}
 </ul>
+
+

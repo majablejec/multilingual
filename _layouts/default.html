@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ page.lang }}">
 	<head>
 		<meta charset='utf-8'>
 		<title>Multilingual</title>
@@ -18,11 +18,12 @@
 		</ul>
 		-->
 		
+		<!--- Chnged loop from https://sylvain.durand.tf/making-jekyll-multilingual/ that works only partially -->
 		{% assign posts=site.posts | where:"name", page.name | sort: 'path' %}
 		<ul>
 		{% for post in site.posts %}
 			<li class="lang">
-				<a href="{{ post.url }}" class="{{ post.lang }}">{{ post.lang }}</a>
+				<a href="{{ post.url }}" class="{{ post.lang }}">{{ page.name }}</a>
 			</li>
 		{% endfor %}
 		</ul>

@@ -34,6 +34,7 @@ title: Posts
 {% for post in site.posts %}
     <li class="lang">
         <a href="{{ post.url }}" class="{{ post.lang }}">{{ post.title }}</a>
+		<p>{{ post.meta }}</p>
     </li>
 {% endfor %}
 </ul>

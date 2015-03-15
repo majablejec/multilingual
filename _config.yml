@@ -5,7 +5,7 @@ exclude: ['README.md']
 defaults:
   -
     scope:
-      path: _posts/en
+      path: ""
     values:
       layout: default
       lang: en
@@ -13,5 +13,4 @@ defaults:
     scope:
       path: _posts/sl
     values:
-      layout: default
       lang: sl

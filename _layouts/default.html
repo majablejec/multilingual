@@ -6,7 +6,7 @@
 	</head>
 	<body>
 		
-		<!--- Original loop from https://sylvain.durand.tf/making-jekyll-multilingual/ -->
+		<!--- Original loop from http://sylvaindurand.org/making-jekyll-multilingual/ -->
 		<!--
 		{% assign posts=site.posts | where:"name", page.name | sort: 'path' %}
 		<ul>
@@ -18,7 +18,7 @@
 		</ul>
 		-->
 		
-		<!--- Changed loop from https://sylvain.durand.tf/making-jekyll-multilingual/ that works only partially -->
+		<!--- Changed loop from http://sylvaindurand.org/making-jekyll-multilingual/ that works only partially -->
 		<!--- Changed: posts -> site.posts; name -> date -->
 		{% assign posts=site.posts | where:"date", page.date | sort: 'path' %}
 		<ul>
